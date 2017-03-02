@@ -25,4 +25,13 @@
 	echo "<hr>";
 	echo in_array(56, $arr2);//находит в нашем массиве значение и выводит true/false
 	echo "<br>";
+	$arr_1 = array (10, 2);
+$arr_2 = array (4, 5, 6);
+$arr_3 = array_merge($arr_1, $arr_2); // объединяет массивы
+print_r ($arr_3);
+echo "<br>";
+$arrDone = array(1,2,3,4,5,6,7,8,9);
+$arrDone2 = array_slice($arrDone, 1,-2);//удалит 1 элемент и 2 последних
+print_r ($arrDone2);
+echo "<br>"; 
 ?>
